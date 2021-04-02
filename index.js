@@ -20,7 +20,7 @@ function deleteFromEmployeeByKey(employee,name) {
     return newEmployee;
 }
 
-function destructivelyDeleteFromEmployeeByKey(employee, key) {
+function destructivelyDeleteFromEmployeeByKey(employee,key) {
     delete employee.name;
     return employee;
 }
